@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+        font-family: "Inter", sans-serif;
+}
+
+.caixa1{
+    display: flex;
+    color: red;
+    background-color: #D9D9D9;
+    border: 3px solid black;
+    padding: 15px; 
+    width: 400px;
+}
+
+.caixa2{
+    display: flex;
+    color:white ;
+    background-color: #6B1C9B;
+    border: 3px solid black;
+    padding: 15px ; 
+    width: 400px;
+    letter-spacing: 5px;
+    
+    
+}
+
+.caixa3{
+    display: flex;
+    color: white;
+    background-image: url(../img/calopsita.png);
+    border: 3px solid black;
+    padding: 15px 150px; 
+    width: 400px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    
+}
+div{
+    justify-content: space-around;
+    margin-left: 215px;
+    margin-top: 100px;
+    
+}
